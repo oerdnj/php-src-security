@@ -8,8 +8,8 @@ SOAP: DOCTYPE named like the envelope is not taken for it when rejecting a poste
     <ns1:test><param0>x</param0></ns1:test>
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
---EXTENSIONS--
-soap
+--SKIPIF--
+<?php require_once('skipif.inc'); ?>
 --FILE--
 <?php
 function test($x) {

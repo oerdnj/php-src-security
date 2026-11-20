@@ -1,7 +1,7 @@
 --TEST--
 SOAP: DOCTYPE named like the schema root element is not taken for it
---EXTENSIONS--
-soap
+--SKIPIF--
+<?php require_once('skipif.inc'); ?>
 --INI--
 soap.wsdl_cache_enabled=0
 --FILE--
