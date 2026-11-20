@@ -1,7 +1,7 @@
 --TEST--
 SOAP: DOCTYPE named like the envelope is not taken for it when rejecting a request
---EXTENSIONS--
-soap
+--SKIPIF--
+<?php require_once('skipif.inc'); ?>
 --FILE--
 <?php
 function test($x) {
